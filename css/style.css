@@ -1,0 +1,165 @@
+/* GCORP Font style Dev for Base 2018 Hossein rad */
+/* persian font */
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/fa/BYekan.eot') format('eot'),  /* IE6–8 */
+         url('../fonts/fa/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('../fonts/fa/BYekan.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'BHoma';
+    src: url('../fonts/fa/BHoma.eot') format('eot'),  /* IE6–8 */
+         url('../fonts/fa/BHoma.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('../fonts/fa/BHoma.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  }
+  /* titr persian font */
+  @font-face {
+    font-family: 'BNarm';
+    src: url('../fonts/fa/BNarm.eot') format('eot'),  /* IE6–8 */
+         url('../fonts/fa/BNarm.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('../fonts/fa/BNarm.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  }
+  /* persian art font */
+  @font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/fa/IranNastaliq.eot');
+    src: url('../fonts/fa/IranNastaliq.woff') format('woff'),
+         url('../fonts/fa/IranNastaliq.ttf') format('truetype'),
+         url('../fonts/fa/IranNastaliq.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Shekasteh';
+    src: url('../fonts/fa/Shekasteh.eot');
+    src: url('../fonts/fa/Shekasteh.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Shekasteh_Beta';
+    src: url('../fonts/fa/Shekasteh_Beta.woff') format('woff'),
+         url('../fonts/fa/Shekasteh_Beta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Dima Shekasteh';
+    src: url('../fonts/fa/Dima Shekasteh.eot');
+    src: url('../fonts/fa/Dima Shekasteh.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'DimaShekastehFree';
+    src: url('../fonts/fa/DimaShekastehFree.woff') format('woff'),
+         url('../fonts/fa/DimaShekastehFree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+    
+  /* english font */
+  @font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../fonts/en/JosefinSans-Regular.eot');
+    src: url('../fonts/en/JosefinSans-Regular.woff') format('woff'),
+         url('../fonts/en/JosefinSans-Regular.ttf') format('truetype'),
+         url('../fonts/en/JosefinSans-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'QuesatLightDemo-Italic';
+    src: url('../fonts/en/QuesatLightDemo-Italic.eot');
+    src: url('../fonts/en/QuesatLightDemo-Italic.woff') format('woff'),
+         url('../fonts/en/QuesatLightDemo-Italic.ttf') format('truetype'),
+         url('../fonts/en/QuesatLightDemo-Italic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+    /* english art font */
+  @font-face {
+    font-family: 'PinyonScript-Regular';
+    src: url('../fonts/en/PinyonScript-Regular.eot');
+    src: url('../fonts/en/PinyonScript-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PinyonScript';
+    src: url('../fonts/en/PinyonScript.woff') format('woff'),
+         url('../fonts/en/PinyonScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Parisienne-Regular';
+    src: url('../fonts/en/Parisienne-Regular.eot');
+    src: url('../fonts/en/Parisienne-Regular.woff') format('woff'),
+         url('../fonts/en/Parisienne-Regular.ttf') format('truetype'),
+         url('../fonts/en/Parisienne-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* english font titr */
+  @font-face {
+    font-family: 'Dressedless Three';
+    src: url('../fonts/en/Dressedless Three.eot');
+    src: url('../fonts/en/Dressedless Three.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'DressedlessThree';
+    src: url('../fonts/en/DressedlessThree.woff') format('woff'),
+         url('../fonts/en/DressedlessThree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+ :root{
+   font-family: 'BYekan','BHoma','JosefinSans-Regular';
+ }    
+ h1,h2,h3,h4,h5,h6{
+   font-family: 'BNarm','Dressedless Three','DressedlessThree';
+ } 
+ .font-en-art-quesat{
+   font-family:'QuesatLightDemo-Italic' ;
+   font-size: 20px;
+ }
+ .font-en-art{
+   font-family: 'Parisienne-Regular','PinyonScript','PinyonScript-Regular';
+   font-size: 40px;
+ }
+ .font-fa-dima{
+   font-family: 'DimaShekastehFree','Dima Shekasteh';
+   font-size: 40px;
+ }
+ .font-fa-Shekasteh{
+   font-family: 'Shekasteh_Beta','Shekasteh';
+   font-size: 40px;
+ }
+ .font-fa-Nas{
+   font-family: 'IranNastaliq';
+   font-size: 40px;
+ }
+
+.sec-txt{
+    border: none;
+    border-radius: 25px;
+    background: #EEE;
+    color: darkslategray;
+    padding: 0 15px 0 15px;
+    width: 200px;
+    height: 35px;
+}

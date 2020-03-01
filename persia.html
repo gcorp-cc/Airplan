@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سپهران</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+chat_bubble_outline
+<!--navbar-->
+<nav>
+    <div class="nav-wrapper navbar-fixed">
+        <a href="#!" class="brand-logo center font-fa-dima">سپهران</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
+            <li class="right"><a class="modal-trigger" href="#modal4"><i class="material-icons white-text right">flight_takeoff</i>پروازها</a></li>
+            <li class="right"><a class="modal-trigger" href="#modal3"><i class="material-icons white-text right">add_shopping_cart</i>خرید بلیط</a></li>
+            <li class="right"><a class="modal-trigger" href="#modal2"><i class="material-icons white-text right">chat_bubble_outline</i>ارتباط با ما</a></li>
+            <li class="right"><a class="modal-trigger" href="#modal1"><i class="material-icons white-text right">info_outline</i>درباره ما</a></li>
+            <li class="left">
+                <form>
+                    <input type="text"
+                           style="border: none;border-radius: 25px;background: white;margin: 10px;width: 200px;padding-right: 25px;height: 35px">
+                    <button class="right" type="submit" style="border: none;background-color: transparent;">
+                        <i class="material-icons white-text">search</i>
+                    </button>
+
+                </form>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<ul class="sidenav light-blue lighten-2" id="mobile-demo">
+    <li>
+        <div class="nav-wrapper">
+            <form>
+                <input type="text"
+                       style="border: none;border-radius: 25px;background: white;width: 190px;padding-right: 25px;height: 35px;margin-top: 10px">
+                <button type="submit" style="border: none;background-color: transparent;margin-top: 15px" class="right" >
+                    <i dir="rtl" class="material-icons white-text">search</i>
+                </button>
+
+            </form>
+        </div>
+    </li>
+    <li ><a class="white-text modal-trigger" href="#modal4"><i class="material-icons white-text right">flight_takeoff</i>پروازها</a></li>
+    <li ><a class="white-text modal-trigger" href="#modal3"><i class="material-icons white-text right">add_shopping_cart</i>خرید بلیط</a></li>
+    <li ><a class="white-text modal-trigger" href="#modal2"><i class="material-icons white-text right">chat_bubble_outline</i>ارتباط با ما</a></li>
+    <li ><a class="white-text modal-trigger" href="#modal1"><i class="material-icons white-text right">info_outline</i>درباره ما</a></li>
+</ul>
+
+<!-- slider -->
+<div class="slider fullscreen">
+    <ul class="slides">
+        <li>
+            <img class="responsive-img" src="image/carousel_one.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <h3>ناوگان هوایی</h3>
+                <h5 class="light grey-text text-lighten-3">بهرگیری از ناوگان هوایی برتر</h5>
+                <a href="#modal3" class="btn waves-effect waves-light blue modal-trigger">خرید بلیط
+                    <i class="material-icons right large">add_shopping_cart</i>
+                </a>
+
+            </div>
+        </li>
+        <li>
+            <img class="responsive-img" src="image/carousel_tow.jpg"> <!-- random image -->
+            <div class="caption right-align">
+                <h3>کیترینگ پرواز</h3>
+                <h5 class="light grey-text text-lighten-3">خدمات کیترینگ پرواز ویژه سپهران</h5>
+                <a href="#modal3" class="btn waves-effect waves-light blue modal-trigger">خرید بلیط
+                    <i class="material-icons right large">add_shopping_cart</i>
+                </a>
+            </div>
+        </li>
+        <li>
+            <img class="responsive-img" src="image/carousel_thre.jpg"> <!-- random image -->
+            <div class="caption left-align">
+                <h3>مقاصد پرواز</h3>
+                <h5 class="light grey-text text-lighten-3">پرواز به اکثر نقات کشور</h5>
+                <a href="#modal3" class="btn waves-effect waves-light blue modal-trigger">خرید بلیط
+                    <i class="material-icons right large">add_shopping_cart</i>
+                </a>
+
+            </div>
+        </li>
+        <li>
+            <img class="responsive-img" src="image/carousel_four.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <a href="#modal3" class="btn waves-effect waves-light blue modal-trigger">خرید بلیط
+                    <i class="material-icons right large">add_shopping_cart</i>
+                </a>
+
+            </div>
+        </li>
+    </ul>
+</div>
+<!--navbar-->
+<!--fixed btn-->
+<div class="fixed-action-btn">
+    <a class="btn waves-effect waves-light blue" href="index.html">English
+        <i class="material-icons right large"> assistant_photo</i>
+    </a>
+</div>
+<!-- Modal Structure information -->
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4 class="center-align font-fa-dima" style="margin-top: 10px">شرکت هواپیمایی سپهران</h4>
+        <p class="right-align">
+            شرکت هواپیمایی سپهران ( سهامی خاص ) در سال 1390 با اساسنامه ای مشتمل بر 71 ماده و 9 تبصره پس از تصویب مجمع
+            عمومی به ثبت رسید .هواپیمایی سپهران سپس با طی مراحل اداری و حقوقی وتوسعه ناوگان هوایی خود در سال 1395 با اخذ
+            استانداردهای لازم موفق به دریافت گواهینامه صلاحیت پروازی با موضوع فعالیت در حمل و نقل بازرگانی شامل مسافر ،
+            با ر و محصولات پستی از طریق پروازهای برنامه ای منظم و نا منظم و ارائه هر گونه خدمات مربوط به حمل ونقل هوایی
+            به اشخاص حقیقی و حقوقی گردید.
+
+            از ابتدای تاسیس شرکت مجموعه مدیریت همواره بر تدوین استراتژی های کلان در حمایت از دیدگاه فراگیر سیاست های
+            ایمنی ناوگان ،تولید توانمندی های تخصصی و رعایت اصول مشتری مداری بوده است . که در همین راستا با بکارگیری
+            نیروهای متخصص و با تجربه و همچنین ایجاد سیستم جامع مدیریت ایمنی با بهره گیری از آخرین یافته های جهانی سعی در
+            جامعیت دادن به این مهم و نیل به کیفیتی قابل قبول داشته است .
+
+            همه تلاش سپهران ارائه خدمات با کیفیتی برتر به وسیله تیمی حرفه ای از خلبانان ، مهمانداران ، و خدمه زمینی
+            آموزش دیده برابر استاندارد های بین المللی این است که مسافران در مقابل انتخاب خود ، آسودگی و ایمنی را با
+            پروازهای هواپیمایی سپهران تجربه نمایند .
+
+            برنامه ریزی اولیه شرکت هواپیمایی سپهران برای پوشش پروازی داخل کشور، بخصوص ایجاد ارتباطی قوی بین مناطق جنوبی
+            با سایر مناطق کشور می باشد که بر این اساس شبکه پروازی خود ، به مرکزیت پایگاه منطقه جنوب کشور در شیراز را بنا
+            نهاده و افتخار خدمت به هموطنان خود را دارد.
+
+            ما بر آنیم که قول کمتری بدهیم ولی بیشتر و بهتر از آنچه قول داده ایم به وظایف خود عمل نماییم.
+
+            مفتخر است با همت ملت بزرگ ایران اسلامی ،به حول و قوه الهی ،شرکت هواپیمایی سپهران بر اساس استانداردهای مدون
+            سازمان هواپیمایی کشوری جمهوری اسلامی ایران و سازمان بین المللی هواپیمایی کشوری ICAO مجوز پرواز (AOC) خود را
+            از سازمان هواپیمایی کشوری دریافت نموده و به زودی به یاری خداوند منان پروازهای خود را آغاز خواهد کرد.
+
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat left">خروج</a>
+    </div>
+</div>
+<!--Modal Structure contact-->
+<div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4 class="center-align font-fa-dima">ارتباط با ما</h4>
+        <!--form massege-->
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col m6 s12 right">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">نام</label>
+                    </div>
+                    <div class="input-field col m6 s12 left">
+                        <input id="email" type="email" class="validate">
+                        <label  for="email">ایمیل</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">پیام</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12">
+                        <button class="btn waves-effect waves-light blue" type="submit" name="action">ارسال
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--connect info-->
+        <div class="row">
+            <table class="striped highlight">
+                <tr>
+                    <th >نشانی</th>
+                    <th  dir="rtl"> اتوبان آزادگان جنوبی, خروجی فتح شهریار, جنب مجتمع غذایی مائده, شرکت هواپیمایی سپهران</th>
+                </tr>
+                <tr>
+                    <th >تلفن </th>
+                    <th dir="ltr">+98-021-44908366</th>
+                </tr>
+                <tr>
+                    <th>فکس</th>
+                    <th  dir="ltr">+98-021-44908365</th>
+                </tr>
+                <tr>
+                    <th>کدپستی</th>
+                    <th  dir="ltr">1389819979</th>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat left">خروج</a>
+    </div>
+</div>
+<!-- Modal Tickets -->
+<div id="modal3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+            <li class="tab hoverable"><a href="#test1">خرید بلیط</a></li>
+            <li class="tab hoverable"><a href="#test2">لغو بلیط</a></li>
+            <li class="tab hoverable"><a href="#test3">راهنما</a></li>
+        </ul>
+        <div id="test1">
+            <form>
+                <div class="row" style="padding-top: 25px">
+                    <div class="col  s12 m4 l4">
+                        <h5 class="font-fa-dima">24 مرداد 1397 شنبه </h5>
+                    </div>
+                    <div class="col  s12 m4 l4">
+                        <p class="font-fa-dima">مقصد:پاریس</p>
+                    </div>
+                    <div class="col  s12 m4 l4">
+                        <p class="font-fa-dima">مبداء : شیراز</p>
+                    </div>
+                </div>
+                <div>
+                    <table class="striped responsive-table highlight">
+                        <thead>
+                        <tr>
+                            <th>نام</th>
+                            <th>زمان</th>
+                            <th>هزینه</th>
+                            <th>خرید</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>757</td>
+                            <td>23:01</td>
+                            <td>$0.87</td>
+                            <td><a>Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>777</td>
+                            <td>6:25</td>
+                            <td>$3.76</td>
+                            <td><a>Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>737</td>
+                            <td>12:12</td>
+                            <td>$7.00</td>
+                            <td><a>Buy</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+        <div id="test2" class="col s12">
+            <form>
+                <div class="row">
+                    <div>
+                        <div class="input-field col m6 s12 " style="margin-top: 35px">
+                            <input id="Ticket" type="text" class="validate blue-text">
+                            <label for="Ticket">شماره سریال بلیط</label>
+                            <a class="right btn blue">جستجو</a>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <table class="striped responsive-table highlight">
+                            <thead>
+                            <tr>
+                                <th>نام</th>
+                                <th>نام خانوادگی</th>
+                                <th>هزینه</th>
+                                <th>استرداد</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>Lionel</td>
+                                <td>Messi</td>
+                                <td>$0.87</td>
+                                <td><a>Cancel</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="test3" class="col s12">
+
+            <ul class="collapsible popout" style="margin-top: 35px">
+                <li>
+                    <div class="collapsible-header">قوانین استفاده از سایت</div>
+                    <div class="collapsible-body"><span>جهت استفاده از سایت لطفا به موارد زیر توجه فرمایید.
+
+
+
+:: نام کاربری و رمز عبور خود را در دسترس دیگران قرار ندهید و در بازه های زمانی حداکثر 3 ماهه رمز عبور خود را تغییر دهید.
+
+:: در خرید بلیط دقت لازم را به عمل آورید هرگونه اشتباه در خرید مشمول قوانین استرداد می شود.
+
+:: از آژانس هایی که تمایل دارند بصورت اینترنتی خرید انجام دهند تقاضا می شود مدارک مربوطه را به واجد بازرگانی شرکت تحویل دهند تا دسترسی های مناسب برای آنها ایجاد شود.
+
+:: در هنگام صورت تغییر اطلاعات تماس لطفا آنها در اختیار واحد بازرگانی قرار دهید.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">فروش بلیط اینترنتی
+                    </div>
+                    <div class="collapsible-body">
+                        <p>بليط الکترونيک: سند و توافق قراردادی فی مابين مسافر و شرکت حمل کننده می باشد و تبيين کننده حدود و مسئوليتهای قراردادی طرفين می باشد
+
+                            اين بليط از تاريخ صدور بمدت يکسال اعتبار دارد، مگر اينکه شرايط خاص ديگری توسط شرکت حمل کننده مقرر و اعلام گردد.
+
+                            برنامه های پروازی بدون اطلاع قبلی قابل تغيير ميباشند.
+
+                            بليط مسافر غير قابل انتقال می باشد و مسافر با خريد و ارائه آن تمام شرايط قرارداد را بدون استثناء قبول نموده است.
+
+                            - حضور مسافر برای پرواز داخلی 2 ساعت و خارجی 3 ساعت قبل در فرودگاه الزامیست.
+
+                            - کانتر کنترل 30 دقیقه قبل از پرواز داخلی و 90 دقیقه از قبل پرواز خارجی بسته خواهد شد .
+
+                            - تغییر نام و یا انتقال بلیط به غیر مجاز نمی باشد .
+
+                            لطفا توجه فرماييد! در صورت هرگونه دستکاري يا فروش با نرخي بيش از نرخ مصوب موضوع از طريق مراجع قضايي پيگيري خواهد شد.</p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header ">قوانین استفاده از سایت</div>
+                    <div class="collapsible-body"><span>جهت استفاده از سایت لطفا به موارد زیر توجه فرمایید.
+
+
+
+:: نام کاربری و رمز عبور خود را در دسترس دیگران قرار ندهید و در بازه های زمانی حداکثر 3 ماهه رمز عبور خود را تغییر دهید.
+
+:: در خرید بلیط دقت لازم را به عمل آورید هرگونه اشتباه در خرید مشمول قوانین استرداد می شود.
+
+:: از آژانس هایی که تمایل دارند بصورت اینترنتی خرید انجام دهند تقاضا می شود مدارک مربوطه را به واجد بازرگانی شرکت تحویل دهند تا دسترسی های مناسب برای آنها ایجاد شود.
+
+:: در هنگام صورت تغییر اطلاعات تماس لطفا آنها در اختیار واحد بازرگانی قرار دهید.</span></div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="modal-close waves-effect waves-green btn-flat">Exit</a>
+    </div>
+</div>
+<!--model flight-->
+<div id="modal4" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4 class="center-align font-fa-dima">لیست پروازها</h4>
+        <table class="highlight striped responsive-table">
+            <thead>
+            <tr>
+                <th>مبداء</th>
+                <th>مقصد</th>
+                <th>تاریخ</th>
+                <th>زمان</th>
+                <th>هزینه</th>
+                <th>خرید</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>شیراز</td>
+                <td>پاریس</td>
+                <td>24 مرداد 1397</td>
+                <td>20:43</td>
+                <td>$0.7</td>
+                <td><a>خرید</a></td>
+            </tr>
+            <tr>
+                <td>شیراز</td>
+                <td>پاریس</td>
+                <td>24 مرداد 1397</td>
+                <td>20:43</td>
+                <td>$0.7</td>
+                <td><a>خرید</a></td>
+            </tr>
+            <tr>
+                <td>شیراز</td>
+                <td>پاریس</td>
+                <td>24 مرداد 1397</td>
+                <td>20:43</td>
+                <td>$0.7</td>
+                <td><a>خرید</a></td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat left">خروج</a>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+</body>
+
+</html>
